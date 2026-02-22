@@ -1,0 +1,342 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700;900&display=swap');
+
+:root {
+    --primary-coffee: #4B3621;
+    --accent-green: #2E8B57;
+    --bg-cream: #FFFDD0;
+    --text-dark: #2c1e14;
+    --serif-font: 'Playfair Display', serif;
+    --sans-font: 'Lato', sans-serif;
+
+    /* Phase 2 Colors */
+    --creamy-latte: #F5F5DC;
+    --espresso-brown: #3E2723;
+}
+
+body {
+    background-color: var(--bg-cream);
+    color: var(--text-dark);
+    font-family: var(--sans-font);
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--serif-font);
+    font-weight: 700;
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--primary-coffee) !important;
+    padding: 1rem 0;
+    transition: all 0.3s ease;
+}
+
+.navbar-brand {
+    font-family: var(--serif-font);
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: var(--bg-cream) !important;
+}
+
+.nav-link {
+    color: var(--bg-cream) !important;
+    font-weight: 400;
+    margin-left: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--accent-green) !important;
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/images/hero.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.btn-order {
+    background-color: var(--accent-green);
+    border-color: var(--accent-green);
+    color: white;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.btn-order:hover {
+    background-color: #246d44;
+    border-color: #246d44;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Featured Items */
+.section-padding {
+    padding: 5rem 0;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.price {
+    color: var(--accent-green);
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+/* Promotion Section */
+.promo-section {
+    background-color: #f9f5e0;
+}
+
+.promo-img {
+    border-radius: 15px;
+    width: 100%;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-coffee);
+    color: var(--bg-cream);
+    padding: 3rem 0;
+}
+
+.social-icons a {
+    color: var(--bg-cream);
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: var(--accent-green);
+}
+
+/* AOS Tweaks */
+[data-aos] {
+    pointer-events: none;
+}
+
+.aos-animate {
+    pointer-events: auto;
+}
+
+/* Phase 2: Menu Page Styles */
+.menu-header {
+    height: 300px;
+    background: linear-gradient(rgba(62, 39, 35, 0.7), rgba(62, 39, 35, 0.7)), url('assets/images/menu-header.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.menu-header h1 {
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Tabs Styling */
+.nav-tabs {
+    border-bottom: 2px solid var(--primary-coffee);
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.nav-tabs .nav-link {
+    color: var(--primary-coffee) !important;
+    border: none;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 1rem 2rem;
+    margin: 0 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.nav-tabs .nav-link:hover {
+    color: var(--accent-green) !important;
+}
+
+.nav-tabs .nav-link.active {
+    background: none;
+    color: var(--accent-green) !important;
+    border-bottom: 4px solid var(--accent-green);
+}
+
+/* Menu Item Styling */
+.menu-item {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.menu-item:hover {
+    background-color: var(--creamy-latte);
+    transform: scale(1.02);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.menu-item-icon {
+    width: 60px;
+    height: 60px;
+    background-color: var(--creamy-latte);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: var(--espresso-brown);
+    margin-right: 1.5rem;
+    flex-shrink: 0;
+}
+
+.menu-item-name {
+    color: var(--espresso-brown);
+    font-weight: 700;
+    margin-bottom: 0.2rem;
+    font-size: 1.25rem;
+}
+
+.menu-item-desc {
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 0;
+}
+
+.menu-item-price {
+    color: var(--accent-green);
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-left: auto;
+}
+
+/* Floating CTA */
+.floating-cta {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+}
+
+.btn-floating {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: var(--accent-green);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.btn-floating:hover {
+    transform: scale(1.1);
+    background-color: #246d44;
+}
+
+/* Phase 3: Blog Page Styles */
+.blog-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+.blog-social a {
+    transition: color 0.3s ease;
+}
+
+.blog-social a:hover {
+    color: var(--accent-green) !important;
+}
+
+/* Phase 4: Location Page Styles */
+#map {
+    height: 500px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .section-padding {
+        padding: 3rem 0;
+    }
+
+    .menu-header h1 {
+        font-size: 2.5rem;
+    }
+
+    .nav-tabs .nav-link {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    #map {
+        height: 350px;
+    }
+}

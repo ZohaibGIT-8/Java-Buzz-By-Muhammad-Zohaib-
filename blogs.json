@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "title": "The Secrets of Masterful Latte Art",
+        "date": "June 1, 2026",
+        "author": "Barista Sam",
+        "category": "Technique",
+        "image_url": "https://images.unsplash.com/photo-1534432087504-207015dcba9a?q=80&w=800&auto=format&fit=crop",
+        "excerpt": "Learn the wrist-snap and foam density secrets behind those stunning swan and heart patterns."
+    },
+    {
+        "id": 2,
+        "title": "The Science of Bean Roasting",
+        "date": "June 3, 2026",
+        "author": "Alex R.",
+        "category": "Roasting",
+        "image_url": "https://images.unsplash.com/photo-1511537190424-bbbab87ac5eb?q=80&w=800&auto=format&fit=crop",
+        "excerpt": "From the first crack to the second, we dive deep into the chemistry that builds our signature flavors."
+    },
+    {
+        "id": 3,
+        "title": "Eco-Friendly Farming: Our Commitment",
+        "date": "June 5, 2026",
+        "author": "Jane Doe",
+        "category": "Sustainability",
+        "image_url": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?q=80&w=800&auto=format&fit=crop",
+        "excerpt": "How Java Buzz partners with sustainable farms to protect biodiversity and ensure farmer welfare."
+    },
+    {
+        "id": 4,
+        "title": "Cold Brew Secrets: Time is Everything",
+        "date": "June 8, 2026",
+        "author": "Cold Brew Crew",
+        "category": "Brewing",
+        "image_url": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?q=80&w=800&auto=format&fit=crop",
+        "excerpt": "Forget the heat. We reveal the 18-hour steeping method that eliminates bitterness and boosts smoothness."
+    },
+    {
+        "id": 5,
+        "title": "Modern Coffee Shop Culture",
+        "date": "June 10, 2026",
+        "author": "Buzz Lifestyle",
+        "category": "Culture",
+        "image_url": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=800&auto=format&fit=crop",
+        "excerpt": "Coffee is community. Discover how the local cafe became the third space for modern digital nomads."
+    },
+    {
+        "id": 6,
+        "title": "Grind Size: The Foundation of Flavor",
+        "date": "June 12, 2026",
+        "author": "Brew Lab",
+        "category": "Technique",
+        "image_url": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=800&auto=format&fit=crop",
+        "excerpt": "A sandy coarse or a powdery fine? Learn why the size of your grounds dictates your coffee's soul."
+    },
+    {
+        "id": 7,
+        "title": "The Resurrection of Pour-Over",
+        "date": "June 15, 2026",
+        "author": "Artisan Alex",
+        "category": "Brewing",
+        "image_url": "https://images.unsplash.com/photo-1544787210-2826cf24fa69?q=80&w=800&auto=format&fit=crop",
+        "excerpt": "Slow down and watch the bloom. Explore why manual brewing is gaining a cult following among purists."
+    },
+    {
+        "id": 8,
+        "title": "The Perfect Morning Ritual",
+        "date": "June 18, 2026",
+        "author": "Jane D.",
+        "category": "Lifestyle",
+        "image_url": "https://images.unsplash.com/photo-1497933321110-8012a323a30c?q=80&w=800&auto=format&fit=crop",
+        "excerpt": "Finding peace in a cup. How a dedicated morning routine can transform your productivity and mood."
+    },
+    {
+        "id": 9,
+        "title": "Milk Alternatives: Beyond Soy",
+        "date": "June 20, 2026",
+        "author": "Nutrition Nut",
+        "category": "Innovation",
+        "image_url": "https://images.unsplash.com/photo-1550991151-60a6ae64548b?q=80&w=800&auto=format&fit=crop",
+        "excerpt": "Oat, almond, or pea? We test every alternative for the perfect micro-foam and taste profile."
+    },
+    {
+        "id": 10,
+        "title": "Java Buzz Seasonal Blends",
+        "date": "June 22, 2026",
+        "author": "Head Roaster",
+        "category": "Announcements",
+        "image_url": "https://images.unsplash.com/photo-1501339817302-ee4bba99a9ec?q=80&w=800&auto=format&fit=crop",
+        "excerpt": "Prepare your palate for the Summer Solstice blend—a bright, floral profile with hints of stone fruit."
+    }
+]
